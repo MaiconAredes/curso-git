@@ -3,6 +3,11 @@ public class Pix {
     double valor;
     
  
+    public Pix(String chavePix, double valor) {
+        this.chavePix = chavePix;
+        this.valor = valor;
+    }
+
     public String getChavePix() {
         return chavePix;
     }
