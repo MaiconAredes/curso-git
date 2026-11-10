@@ -1,6 +1,6 @@
 public class Pix {
-    String chavePix;
-    double valor;
+    private String chavePix;
+    private double valor;
     
  
     public Pix(String chavePix, double valor) {
